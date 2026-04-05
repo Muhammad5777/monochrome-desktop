@@ -8,7 +8,8 @@
     "open-external",
     "source-url",
     "shell:allow-open",
-    "google-auth:default"
+    "google-auth:default",
+    "discord-presence"
   ],
   "remote": {
     "urls": ["https://*"]

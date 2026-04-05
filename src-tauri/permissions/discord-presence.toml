@@ -1,0 +1,8 @@
+# Copyright 2019-2024 Tauri Programme within The Commons Conservancy
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: MIT
+
+[[permission]]
+identifier = "discord-presence"
+description = "Allows updating Discord rich presence."
+commands.allow = ["update_discord_presence"]

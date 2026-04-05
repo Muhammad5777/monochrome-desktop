@@ -64,7 +64,7 @@
         const audioEl = document.getElementById('audio-player');
 
         if (titleEl && artistEl) {
-            let title = titleEl.innerText.replace(/\s*HD\s*$/, '').trim();
+            let title = (titleEl.childNodes[0]?.textContent || '').trim();
             
             let image = 'logo';
             if (coverEl && coverEl.src && coverEl.src.startsWith('http') && coverEl.src.length < 256) {
