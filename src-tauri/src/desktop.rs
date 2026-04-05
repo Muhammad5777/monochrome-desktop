@@ -299,6 +299,7 @@ pub fn setup(app: &mut tauri::App) -> Result<(), Box<dyn std::error::Error>> {
     .build()?;
 
     let _ = window.show();
+    let _ = window.set_theme(Some(tauri::Theme::Dark));
 
     let window_clone = window.clone();
     window.on_window_event(move |event| {
