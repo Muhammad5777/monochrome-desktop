@@ -2,7 +2,7 @@ use std::fs;
 use tauri::{AppHandle, Manager};
 use tauri_plugin_opener::OpenerExt;
 
-pub const DEFAULT_SOURCE_URL: &str = "https://monochrome.samidy.com";
+pub const DEFAULT_SOURCE_URL: &str = "https://monochrome.tf";
 
 pub fn load_source_url(handle: &AppHandle) -> String {
     if let Ok(config_dir) = handle.path().app_config_dir() {

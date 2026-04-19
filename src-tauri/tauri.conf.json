@@ -5,7 +5,7 @@
   "build": {
     "beforeDevCommand": "",
     "beforeBuildCommand": "",
-    "devUrl": "https://monochrome.samidy.com",
+    "devUrl": "https://monochrome.tf",
     "frontendDist": "dist"
   },
   "bundle": {
