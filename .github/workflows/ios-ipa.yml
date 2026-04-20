@@ -1,8 +1,6 @@
 name: ios-ipa
 
 on:
-  push:
-    branches: [ main, mobile/ios ]
   workflow_dispatch:
 
 jobs:
